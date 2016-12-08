@@ -12,7 +12,7 @@ $NEO deploy -a "$ACCOUNT" \
        -p "$DEPLOY_PASSWORD" \
        -s ./target/basecamp-1.0.0.war
 
-echo Restarting app...
+echo Restarting app....
 $NEO restart -a "$ACCOUNT" \
              -b "$APP_NAME" \
              -h "$LANDSCAPE_HOST" \
